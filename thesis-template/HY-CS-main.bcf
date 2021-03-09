@@ -1924,15 +1924,28 @@
     <bcf:datasource type="file" datatype="bibtex">bibliography.bib</bcf:datasource>
   </bcf:bibdata>
   <bcf:section number="0">
-    <bcf:citekey order="1">erkio01</bcf:citekey>
-    <bcf:citekey order="1">erkiomakela96</bcf:citekey>
-    <bcf:citekey order="1">erkio94</bcf:citekey>
-    <bcf:citekey order="1">verkamo92</bcf:citekey>
-    <bcf:citekey order="2">dantowsley90</bcf:citekey>
-    <bcf:citekey order="3">gannonetal89</bcf:citekey>
-    <bcf:citekey order="4">abiteboul</bcf:citekey>
-    <bcf:citekey order="4">dietinger</bcf:citekey>
-    <bcf:citekey order="5">bray</bcf:citekey>
+    <bcf:citekey order="1">jen_working_2000</bcf:citekey>
+    <bcf:citekey order="2">kruchten2004rational</bcf:citekey>
+    <bcf:citekey order="3">noauthor_14th_2020</bcf:citekey>
+    <bcf:citekey order="4">fowler2001agile</bcf:citekey>
+    <bcf:citekey order="5">waterman_how_2015</bcf:citekey>
+    <bcf:citekey order="6">waterman_agility_2018</bcf:citekey>
+    <bcf:citekey order="7">waterman_agility_2018</bcf:citekey>
+    <bcf:citekey order="8">waterman_agility_2018</bcf:citekey>
+    <bcf:citekey order="9">waterman_agility_2018</bcf:citekey>
+    <bcf:citekey order="10">waterman_agility_2018</bcf:citekey>
+    <bcf:citekey order="11">waterman_agility_2018_2</bcf:citekey>
+    <bcf:citekey order="12">fairbanks2010just</bcf:citekey>
+    <bcf:citekey order="13">waterman_agility_2018_2</bcf:citekey>
+    <bcf:citekey order="14">waterman_agility_2018_2</bcf:citekey>
+    <bcf:citekey order="15">waterman_how_2015</bcf:citekey>
+    <bcf:citekey order="16">waterman_how_2015</bcf:citekey>
+    <bcf:citekey order="17">waterman_how_2015</bcf:citekey>
+    <bcf:citekey order="18">waterman_how_2015</bcf:citekey>
+    <bcf:citekey order="19">waterman_how_2015</bcf:citekey>
+    <bcf:citekey order="20">waterman_how_2015</bcf:citekey>
+    <bcf:citekey order="21">rost_distilling_2015</bcf:citekey>
+    <bcf:citekey order="22">rost_distilling_2015</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="nyt">

@@ -411,15 +411,10 @@ OUTPUT /home/jkotimak/kandi/kandi-aine/thesis-template/HY-CS-main.toc
 OUTPUT /home/jkotimak/kandi/kandi-aine/thesis-template/bsc_finnish_contents.aux
 INPUT /home/jkotimak/kandi/kandi-aine/thesis-template/bsc_finnish_contents.tex
 INPUT /home/jkotimak/kandi/kandi-aine/thesis-template/bsc_finnish_contents.tex
+INPUT /usr/share/texmf/fonts/tfm/public/lm/ec-lmri12.tfm
 INPUT /usr/share/texmf/fonts/tfm/public/lm/ec-lmr17.tfm
 INPUT /usr/share/texmf/fonts/tfm/public/lm/ec-lmbx12.tfm
-INPUT /usr/share/texmf/tex/latex/lm/ts1lmr.fd
-INPUT /usr/share/texmf/tex/latex/lm/ts1lmr.fd
-INPUT /usr/share/texmf/fonts/tfm/public/lm/ts1-lmr12.tfm
-INPUT /usr/share/texmf/fonts/tfm/public/lm/ec-lmri12.tfm
-INPUT /home/jkotimak/kandi/kandi-aine/thesis-template/kuvaesimerkki.pdf
-INPUT /home/jkotimak/kandi/kandi-aine/thesis-template/kuvaesimerkki.pdf
-INPUT /home/jkotimak/kandi/kandi-aine/thesis-template/kuvaesimerkki.pdf
+INPUT /usr/share/texmf/fonts/tfm/public/lm/ec-lmcsc10.tfm
 INPUT /usr/share/texmf/fonts/tfm/public/lm/ec-lmtt12.tfm
 INPUT /usr/share/texmf/fonts/tfm/public/lm/ec-lmbx12.tfm
 INPUT /home/jkotimak/kandi/kandi-aine/thesis-template/HY-CS-main.aux
@@ -430,7 +425,6 @@ INPUT /home/jkotimak/kandi/kandi-aine/thesis-template/HY-CS-main.out
 INPUT /home/jkotimak/kandi/kandi-aine/thesis-template/HY-CS-main.run.xml
 OUTPUT /home/jkotimak/kandi/kandi-aine/thesis-template/HY-CS-main.run.xml
 INPUT /usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc
-INPUT /usr/share/texmf/fonts/enc/dvips/lm/lm-ts1.enc
 INPUT /usr/share/texmf/fonts/enc/dvips/lm/lm-mathsy.enc
 INPUT /usr/share/texmf/fonts/type1/public/lm/lmbx10.pfb
 INPUT /usr/share/texmf/fonts/type1/public/lm/lmbx12.pfb
