@@ -34,6 +34,80 @@
       \verb https://explore.digital.ai/state-ofagile/14th-annual-state-of-agile-report
       \endverb
     \endentry
+    \entry{bellomo2014agilely}{article}{}
+      \name{author}{4}{}{%
+        {{uniquename=0,uniquepart=base,hash=5c5be00d6a13f295dd5f8f28b9f07dbe}{%
+           family={Bellomo},
+           familyi={B\bibinitperiod},
+           given={Stephany},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=1d00515fe991ba26ce9b4c5ca06934fa}{%
+           family={Kruchten},
+           familyi={K\bibinitperiod},
+           given={Philippe},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=ec919b52cb34eeaa0eb6e6b03d83844b}{%
+           family={Nord},
+           familyi={N\bibinitperiod},
+           given={Robert\bibnamedelima L},
+           giveni={R\bibinitperiod\bibinitdelim L\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=95ef659da576faeaea4f8eb3799cf955}{%
+           family={Ozkaya},
+           familyi={O\bibinitperiod},
+           given={Ipek},
+           giveni={I\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{c5fdbc121136b42b81b4a29e1ff794b2}
+      \strng{fullhash}{619198d63208d41d5c3f989956474c4a}
+      \strng{bibnamehash}{619198d63208d41d5c3f989956474c4a}
+      \strng{authorbibnamehash}{619198d63208d41d5c3f989956474c4a}
+      \strng{authornamehash}{c5fdbc121136b42b81b4a29e1ff794b2}
+      \strng{authorfullhash}{619198d63208d41d5c3f989956474c4a}
+      \field{sortinit}{B}
+      \field{sortinithash}{276475738cc058478c1677046f857703}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Cutter IT Journal}
+      \field{number}{2}
+      \field{title}{How to agilely architect an agile architecture}
+      \field{volume}{27}
+      \field{year}{2014}
+      \field{pages}{12\bibrangedash 17}
+      \range{pages}{6}
+    \endentry
+    \entry{eloranta2015techniques}{article}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=2e8bd7e9f54c9b064990bf4884a18ead}{%
+           family={Eloranta},
+           familyi={E\bibinitperiod},
+           given={Veli-Pekka},
+           giveni={V\bibinithyphendelim P\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Tampere University of Technology}%
+      }
+      \strng{namehash}{2e8bd7e9f54c9b064990bf4884a18ead}
+      \strng{fullhash}{2e8bd7e9f54c9b064990bf4884a18ead}
+      \strng{bibnamehash}{2e8bd7e9f54c9b064990bf4884a18ead}
+      \strng{authorbibnamehash}{2e8bd7e9f54c9b064990bf4884a18ead}
+      \strng{authornamehash}{2e8bd7e9f54c9b064990bf4884a18ead}
+      \strng{authorfullhash}{2e8bd7e9f54c9b064990bf4884a18ead}
+      \field{sortinit}{E}
+      \field{sortinithash}{f615fb9c6fba11c6f962fb3fd599810e}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Techniques and Practices for Software Architecture Work in Agile Software Development}
+      \field{year}{2015}
+    \endentry
     \entry{fairbanks2010just}{book}{}
       \name{author}{1}{}{%
         {{uniquename=0,uniquepart=base,hash=18aa610aa275c6b061a9202dfadc5737}{%
@@ -229,7 +303,7 @@
       \endverb
       \keyw{Agile development,Experience report,Software architecture}
     \endentry
-    \entry{waterman_agility_2018}{article}{}
+    \entry{waterman_agility_2018_a}{article}{}
       \name{author}{1}{}{%
         {{uniquename=0,uniquepart=base,hash=f9736ff22ce7dd093059cd284e4480d0}{%
            family={Waterman},
@@ -265,7 +339,7 @@
       \verb 08314169.pdf:/home/jkotimak/Downloads/08314169.pdf:application/pdf
       \endverb
     \endentry
-    \entry{waterman_agility_2018_2}{article}{}
+    \entry{waterman_agility_2018_b}{article}{}
       \name{author}{1}{}{%
         {{uniquename=0,uniquepart=base,hash=f9736ff22ce7dd093059cd284e4480d0}{%
            family={Waterman},
