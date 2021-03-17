@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.10.16)  10 MAR 2021 15:50
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.10.16)  17 MAR 2021 18:56
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1512,7 +1512,7 @@ LaTeX Info: Redefining \nameref on input line 173.
 \openout6 = `HY-CS-main.out'.
 
 Package hyperref Info: Option `pageanchor' set `true' on input line 177.
-<HY-logo-ml.png, id=91, 270.0489pt x 254.8722pt>
+<HY-logo-ml.png, id=95, 270.0489pt x 254.8722pt>
 File: HY-logo-ml.png Graphic file (type png)
 <use HY-logo-ml.png>
 Package pdftex.def Info: HY-logo-ml.png  used on input line 177.
@@ -1623,136 +1623,144 @@ Luku 1.
 Package babel Info: Redefining finnish shorthand "|
 (babel)             in language  on input line 1.
 Package babel Info: Redefining finnish shorthand "|
-(babel)             in language  on input line 17.
+(babel)             in language  on input line 16.
 Package babel Info: Redefining finnish shorthand "|
-(babel)             in language  on input line 17.
+(babel)             in language  on input line 16.
 [1
 
 
 ]
 Package babel Info: Redefining finnish shorthand "|
-(babel)             in language  on input line 19.
+(babel)             in language  on input line 18.
 Package babel Info: Redefining finnish shorthand "|
-(babel)             in language  on input line 19.
+(babel)             in language  on input line 18.
  [2]
 Luku 2.
 Package babel Info: Redefining finnish shorthand "|
-(babel)             in language  on input line 19.
-
-Overfull \hbox (0.99976pt too wide) in paragraph at lines 19--19
-|[]\T1/lmr/bx/n/24.88 Arkkitehtuurisuunnittelu ket-te-ris-sä
- []
-
+(babel)             in language  on input line 18.
+Package babel Info: Redefining finnish shorthand "|
+(babel)             in language  on input line 23.
+Package babel Info: Redefining finnish shorthand "|
+(babel)             in language  on input line 27.
+Package babel Info: Redefining finnish shorthand "|
+(babel)             in language  on input line 31.
 Package babel Info: Redefining finnish shorthand "|
 (babel)             in language  on input line 35.
 Package babel Info: Redefining finnish shorthand "|
-(babel)             in language  on input line 38.
-Package babel Info: Redefining finnish shorthand "|
-(babel)             in language  on input line 38.
+(babel)             in language  on input line 35.
 [3
+
+]
+Luku 3.
+Package babel Info: Redefining finnish shorthand "|
+(babel)             in language  on input line 35.
+Package babel Info: Redefining finnish shorthand "|
+(babel)             in language  on input line 41.
+Package babel Info: Redefining finnish shorthand "|
+(babel)             in language  on input line 46.
+Package babel Info: Redefining finnish shorthand "|
+(babel)             in language  on input line 51.
+Package babel Info: Redefining finnish shorthand "|
+(babel)             in language  on input line 51.
+[4
 
 ]
 Package babel Info: Redefining finnish shorthand "|
 (babel)             in language  on input line 52.
 Package babel Info: Redefining finnish shorthand "|
-(babel)             in language  on input line 55.
-Package babel Info: Redefining finnish shorthand "|
-(babel)             in language  on input line 57.
-Package babel Info: Redefining finnish shorthand "|
-(babel)             in language  on input line 57.
- [4]
-Package babel Info: Redefining finnish shorthand "|
-(babel)             in language  on input line 58.
-Package babel Info: Redefining finnish shorthand "|
-(babel)             in language  on input line 61.
-Package babel Info: Redefining finnish shorthand "|
-(babel)             in language  on input line 64.
-Package babel Info: Redefining finnish shorthand "|
-(babel)             in language  on input line 64.
- [5]
-Luku 3.
-Package babel Info: Redefining finnish shorthand "|
-(babel)             in language  on input line 64.
-Package babel Info: Redefining finnish shorthand "|
-(babel)             in language  on input line 66.
-Package babel Info: Redefining finnish shorthand "|
-(babel)             in language  on input line 67.
-Package babel Info: Redefining finnish shorthand "|
-(babel)             in language  on input line 68.
+(babel)             in language  on input line 65.
 Package babel Info: Redefining finnish shorthand "|
 (babel)             in language  on input line 69.
 Package babel Info: Redefining finnish shorthand "|
-(babel)             in language  on input line 70.
+(babel)             in language  on input line 71.
 Package babel Info: Redefining finnish shorthand "|
-(babel)             in language  on input line 73.
+(babel)             in language  on input line 71.
+ [5]
 Package babel Info: Redefining finnish shorthand "|
-(babel)             in language  on input line 73.
-[6
-
-]
+(babel)             in language  on input line 72.
+Package babel Info: Redefining finnish shorthand "|
+(babel)             in language  on input line 72.
+ [6]
 Luku 4.
 Package babel Info: Redefining finnish shorthand "|
-(babel)             in language  on input line 73.
+(babel)             in language  on input line 72.
 
-Overfull \hbox (6.34381pt too wide) in paragraph at lines 73--73
+Overfull \hbox (6.34381pt too wide) in paragraph at lines 72--72
 |[]\T1/lmr/bx/n/24.88 Arkkitehtuurisuunnittelun stra-te-gia| 
  []
 
 Package babel Info: Redefining finnish shorthand "|
-(babel)             in language  on input line 76.
+(babel)             in language  on input line 84.
 Package babel Info: Redefining finnish shorthand "|
-(babel)             in language  on input line 87.
+(babel)             in language  on input line 92.
 Package babel Info: Redefining finnish shorthand "|
-(babel)             in language  on input line 89.
-Package babel Info: Redefining finnish shorthand "|
-(babel)             in language  on input line 89.
+(babel)             in language  on input line 92.
 [7
 
 ]
 Package babel Info: Redefining finnish shorthand "|
-(babel)             in language  on input line 92.
+(babel)             in language  on input line 95.
 Package babel Info: Redefining finnish shorthand "|
-(babel)             in language  on input line 99.
+(babel)             in language  on input line 102.
 Package babel Info: Redefining finnish shorthand "|
-(babel)             in language  on input line 105.
+(babel)             in language  on input line 104.
 Package babel Info: Redefining finnish shorthand "|
-(babel)             in language  on input line 105.
+(babel)             in language  on input line 108.
+Package babel Info: Redefining finnish shorthand "|
+(babel)             in language  on input line 108.
  [8]
 Package babel Info: Redefining finnish shorthand "|
-(babel)             in language  on input line 105.
+(babel)             in language  on input line 112.
 Package babel Info: Redefining finnish shorthand "|
-(babel)             in language  on input line 105.
+(babel)             in language  on input line 116.
+Package babel Info: Redefining finnish shorthand "|
+(babel)             in language  on input line 122.
+Package babel Info: Redefining finnish shorthand "|
+(babel)             in language  on input line 122.
  [9]
 Luku 5.
 Package babel Info: Redefining finnish shorthand "|
-(babel)             in language  on input line 105.
+(babel)             in language  on input line 122.
+Package babel Info: Redefining finnish shorthand "|
+(babel)             in language  on input line 123.
+Package babel Info: Redefining finnish shorthand "|
+(babel)             in language  on input line 123.
+[10
+
+]
+Luku 6.
+Package babel Info: Redefining finnish shorthand "|
+(babel)             in language  on input line 123.
 )
 Package babel Info: Redefining finnish shorthand "|
 (babel)             in language  on input line 232.
 Package babel Info: Redefining finnish shorthand "|
 (babel)             in language  on input line 232.
- [10
+ [11
+
+]
+Package babel Info: Redefining finnish shorthand "|
+(babel)             in language  on input line 239.
+Package babel Info: Redefining finnish shorthand "|
+(babel)             in language  on input line 239.
+ [12
+
 
 ]
 Package babel Info: Redefining finnish shorthand "|
 (babel)             in language  on input line 241.
 Package babel Info: Redefining finnish shorthand "|
-(babel)             in language  on input line 245.
+(babel)             in language  on input line 242.
 Package babel Info: Redefining finnish shorthand "|
-(babel)             in language  on input line 245.
- [11
-
-
+(babel)             in language  on input line 242.
+ [13
 
 ]
 Package babel Info: Redefining finnish shorthand "|
 (babel)             in language  on input line 245.
 Package babel Info: Redefining finnish shorthand "|
 (babel)             in language  on input line 245.
- [12
-
-
-]
+ [14]
 Liite A.
 Package babel Info: Redefining finnish shorthand "|
 (babel)             in language  on input line 251.
@@ -1764,33 +1772,35 @@ Package babel Info: Redefining finnish shorthand "|
 (babel)             in language  on input line 262.
 [1
 
+
+
 ]
 ***AED Number of Appendices 1
-***AED Number of pages 11\translate {pp}
+***AED Number of pages 14\translate {pp}
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 262.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 262.
 (/home/jkotimak/kandi/kandi-aine/thesis-template/HY-CS-main.aux (/home/jkotimak/kandi/kandi-aine/thesis-template/bsc_finnish_contents.aux))
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 262.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 262.
 Package rerunfilecheck Info: File `HY-CS-main.out' has not changed.
-(rerunfilecheck)             Checksum: 659D158ACA04A88CC99A33B5EEA5A6BF;3772.
+(rerunfilecheck)             Checksum: 1FD4A1341619BFEE51DA6110C0F8DA58;3609.
 Package logreq Info: Writing requests to 'HY-CS-main.run.xml'.
 \openout1 = `HY-CS-main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 31149 strings out of 492982
- 546288 string characters out of 6134895
- 997556 words of memory out of 5000000
- 34103 multiletter control sequences out of 15000+600000
+ 31178 strings out of 492982
+ 546956 string characters out of 6134895
+ 999132 words of memory out of 5000000
+ 34125 multiletter control sequences out of 15000+600000
  84949 words of font info for 73 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  62i,7n,56p,999b,2026s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathsy.enc}</usr/share/texmf/fonts/type1/public/lm/lmbx10.pfb></usr/share/texmf/fonts/type1/public/lm/lmbx12.pfb></usr/share/texmf/fonts/type1/public/lm/lmcsc10.pfb></usr/share/texmf/fonts/type1/public/lm/lmr10.pfb></usr/share/texmf/fonts/type1/public/lm/lmr12.pfb></usr/share/texmf/fonts/type1/public/lm/lmr6.pfb></usr/share/texmf/fonts/type1/public/lm/lmri12.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy10.pfb></usr/share/texmf/fonts/type1/public/lm/lmtt10.pfb></usr/share/texmf/fonts/type1/public/lm/lmtt12.pfb>
-Output written on /home/jkotimak/kandi/kandi-aine/thesis-template/HY-CS-main.pdf (19 pages, 285953 bytes).
+Output written on /home/jkotimak/kandi/kandi-aine/thesis-template/HY-CS-main.pdf (21 pages, 292989 bytes).
 PDF statistics:
- 296 PDF objects out of 1000 (max. 8388607)
- 260 compressed objects within 3 object streams
- 48 named destinations out of 1000 (max. 500000)
- 186 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 331 PDF objects out of 1000 (max. 8388607)
+ 293 compressed objects within 3 object streams
+ 55 named destinations out of 1000 (max. 500000)
+ 194 words of extra memory for PDF output out of 10000 (max. 10000000)
 

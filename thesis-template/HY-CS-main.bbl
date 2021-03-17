@@ -34,6 +34,45 @@
       \verb https://explore.digital.ai/state-ofagile/14th-annual-state-of-agile-report
       \endverb
     \endentry
+    \entry{babar_agile_2013}{book}{}
+      \name{author}{3}{}{%
+        {{uniquename=0,uniquepart=base,hash=d4d4fe4b84580d022e3c19b9f8421af5}{%
+           family={Babar},
+           familyi={B\bibinitperiod},
+           given={Muhammad\bibnamedelima Ali},
+           giveni={M\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=5c7d8fa7c8404e8c8ed3e0283206d5cc}{%
+           family={Brown},
+           familyi={B\bibinitperiod},
+           given={Alan\bibnamedelima W},
+           giveni={A\bibinitperiod\bibinitdelim W\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=31dc36fdc9c452c2ca1ef86e927180af}{%
+           family={Mistrík},
+           familyi={M\bibinitperiod},
+           given={Ivan},
+           giveni={I\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Newnes}%
+      }
+      \strng{namehash}{20955c5bc6d858f68049a04dcdc5ee9d}
+      \strng{fullhash}{07889ababea741ddef35cb4ac6dba93e}
+      \strng{bibnamehash}{07889ababea741ddef35cb4ac6dba93e}
+      \strng{authorbibnamehash}{07889ababea741ddef35cb4ac6dba93e}
+      \strng{authornamehash}{20955c5bc6d858f68049a04dcdc5ee9d}
+      \strng{authorfullhash}{07889ababea741ddef35cb4ac6dba93e}
+      \field{sortinit}{B}
+      \field{sortinithash}{276475738cc058478c1677046f857703}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Agile {Software} {Architecture}: {Aligning} {Agile} {Processes} and {Software} {Architectures}}
+      \field{year}{2013}
+    \endentry
     \entry{bellomo2014agilely}{article}{}
       \name{author}{4}{}{%
         {{uniquename=0,uniquepart=base,hash=5c5be00d6a13f295dd5f8f28b9f07dbe}{%
@@ -236,6 +275,71 @@
       \field{title}{The rational unified process: an introduction}
       \field{year}{2004}
     \endentry
+    \entry{prause_architectural_2012}{inproceedings}{}
+      \name{author}{2}{}{%
+        {{uniquename=0,uniquepart=base,hash=cfdd91377b9af19cb116b5df13b668ec}{%
+           family={Prause},
+           familyi={P\bibinitperiod},
+           given={Christian\bibnamedelima R},
+           giveni={C\bibinitperiod\bibinitdelim R\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=3ffc6af391a988e5fcfd701b29d59882}{%
+           family={Durdik},
+           familyi={D\bibinitperiod},
+           given={Zoya},
+           giveni={Z\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {IEEE}%
+      }
+      \strng{namehash}{6f508844664c11788d16e65a52e55b3c}
+      \strng{fullhash}{6f508844664c11788d16e65a52e55b3c}
+      \strng{bibnamehash}{6f508844664c11788d16e65a52e55b3c}
+      \strng{authorbibnamehash}{6f508844664c11788d16e65a52e55b3c}
+      \strng{authornamehash}{6f508844664c11788d16e65a52e55b3c}
+      \strng{authorfullhash}{6f508844664c11788d16e65a52e55b3c}
+      \field{sortinit}{P}
+      \field{sortinithash}{8d51b3d5b78d75b54308d706b9bbe285}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{2012 international conference on software and system process (icssp)}
+      \field{title}{Architectural design and documentation: {Waste} in agile development?}
+      \field{year}{2012}
+      \field{pages}{130\bibrangedash 134}
+      \range{pages}{5}
+      \verb{file}
+      \verb ICSSP2012-ArchitecturalDesignAndDocumentationWasteInAgile.pdf:/home/jkotimak/Downloads/ICSSP2012-ArchitecturalDesignAndDocumentationWasteInAgile.pdf:application/pdf
+      \endverb
+    \endentry
+    \entry{reis2011lean}{article}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=c447942369f66ef008ca73a64af8d661}{%
+           family={Reis},
+           familyi={R\bibinitperiod},
+           given={Eric},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{c447942369f66ef008ca73a64af8d661}
+      \strng{fullhash}{c447942369f66ef008ca73a64af8d661}
+      \strng{bibnamehash}{c447942369f66ef008ca73a64af8d661}
+      \strng{authorbibnamehash}{c447942369f66ef008ca73a64af8d661}
+      \strng{authornamehash}{c447942369f66ef008ca73a64af8d661}
+      \strng{authorfullhash}{c447942369f66ef008ca73a64af8d661}
+      \field{sortinit}{R}
+      \field{sortinithash}{da6b42bd3ab22fee61abed031ee405f7}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{New York: Crown Business}
+      \field{title}{The lean startup}
+      \field{volume}{27}
+      \field{year}{2011}
+    \endentry
     \entry{rost_distilling_2015}{inproceedings}{}
       \name{author}{5}{}{%
         {{uniquename=0,uniquepart=base,hash=3bb3971b85bba8586d94adae6975f464}{%
@@ -423,6 +527,51 @@
       \verb{file}
       \verb 2818754.2818799.pdf:/home/jkotimak/Downloads/2818754.2818799.pdf:application/pdf
       \endverb
+    \endentry
+    \entry{vogel2011software}{book}{}
+      \name{author}{4}{}{%
+        {{uniquename=0,uniquepart=base,hash=50a194976fbff34ae9d17565784d68e6}{%
+           family={Vogel},
+           familyi={V\bibinitperiod},
+           given={Oliver},
+           giveni={O\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=9af75d3068c6e62740a8f5bb0ba0a82a}{%
+           family={Arnold},
+           familyi={A\bibinitperiod},
+           given={Ingo},
+           giveni={I\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=68d471784df5e155c92ed5f7fd30c62e}{%
+           family={Chughtai},
+           familyi={C\bibinitperiod},
+           given={Arif},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=d79290f008da09d20408215ad85245d3}{%
+           family={Kehrer},
+           familyi={K\bibinitperiod},
+           given={Timo},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Springer Science \& Business Media}%
+      }
+      \strng{namehash}{bfa08c4b95e16bd0facbf880fe1b5fa8}
+      \strng{fullhash}{b08b08e7810a96b0c703cfcd8bbdb340}
+      \strng{bibnamehash}{b08b08e7810a96b0c703cfcd8bbdb340}
+      \strng{authorbibnamehash}{b08b08e7810a96b0c703cfcd8bbdb340}
+      \strng{authornamehash}{bfa08c4b95e16bd0facbf880fe1b5fa8}
+      \strng{authorfullhash}{b08b08e7810a96b0c703cfcd8bbdb340}
+      \field{sortinit}{V}
+      \field{sortinithash}{75dd7385c90b2252c3ae853a80ca853b}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Software architecture: a comprehensive framework and guide for practitioners}
+      \field{year}{2011}
     \endentry
   \enddatalist
 \endrefsection
