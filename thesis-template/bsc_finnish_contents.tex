@@ -55,7 +55,12 @@ Arkkitehtuurilliset päätökset tulisi tehdä mahdollisimman aikaisin \citep{ab
 
 Scrum on tällä hetkellä suosituin ketterän ohjelmistokehityksen viitemalli \citep{noauthor_14th_2020}. Sprintit ovat Scrumin kehitysjaksoja ja ne numeroidaan tyypillisesti yhdestä eteenpäin.
 
-Sprint 0 on tarkoitus alustaa alkava kehitystyö eli hoitaa kaikki projektin aloituksen kannalta oleelliset toimenpiteet ennen varsinaista kehitystyön alkamista. Tässä yhteydessä Sprint 0 tarkoittaa vaihetta, jossa arkkitehtuuri luodaan ensimmäisen iteraation aikana. Tyypillisesti tähän alustavaan arkkitehtuuriin tehdään muutoksia myöhempien sprinttien aikana (ks. Ohjelmistokehykset). Sprint 0:lle on tyypillistä, että arkkitehtuurin suunnittelee ohjelmoijat itse, ei erilliset arkkitehdit \citep{eloranta2015techniques}. Sprint 0 on yleensä pituudeltaan yhden normaalin sprintin mittainen, mutta voi kestää myös useamman sprintin \citep{prause_architectural_2012}.
+Sprint 0 on tarkoitus alustaa alkava kehitystyö eli hoitaa kaikki projektin aloituksen kannalta oleelliset toimenpiteet ennen varsinaista kehitystyön alkamista. Tässä yhteydessä Sprint 0 tarkoittaa vaihetta, jossa arkkitehtuuri luodaan ensimmäisen iteraation aikana. Tyypillisesti tähän alustavaan arkkitehtuuriin tehdään muutoksia myöhempien sprinttien aikana (ks. Ohjelmistokehykset). 
+
+Sprint 0:lle on tyypillistä, että arkkitehtuurin suunnittelee ohjelmoijat itse, ei erilliset arkkitehdit \citep{eloranta2015techniques}. Sprint 0 on yleensä pituudeltaan yhden normaalin sprintin mittainen, mutta voi kestää myös useamman sprintin \citep{prause_architectural_2012}.
+
+Sprint 0 voidaan kritisoida, koska se ei tuota välitöntä arvoa asiakkaalle.
+Scrum guiden mukaan jokaisen sprintin pitäisi tuottaa potentiaalisesti julkaisukelpoinen lisäys tuotteeseen.
 
 \section{Kehityksen aikainen suunnittelu}
 Kehityksen aikaisessa suunnittelussa minkäänlaista arkkitehtuurin etukäteissuunnitteluvaihetta ei ole. Arkkitehtuuria suunnitellaan vain tarpeen mukaan järjestelmän ominaisuuksien toteuttamisen yhteydessä. Arkkitehtuuri valmistuu pala palalta kunnes se on valmis.
@@ -103,23 +108,26 @@ Mitä enemmän voi olettaa vaatimusten muuttuvan, sitä ketterämpi arkkitehtuur
 Jos tarkoituksena on aikainen arvontuotto, täytyy nopeuttaa ensimmäistä julkaisua vähentämällä arkkitehtuurisuunniitteluun käytettyä aikaa \citep{waterman_how_2015}. Tällöin voisi olla järkevää käyttää hyväksi malliarkkitehtuureja sekä inkrementaalista arkkitehtuuria.
 
 \section{Tiimin kulttuurin ja kokemuksen vaikutus}
-Tiimin kyky kommunikoida vaikuttaa siihen, kuinka paljon tarvitaan dokumentaatiota ja etukäteispanostusta ohjelmistokehityksen ohjaamiseksi. Kommunikoinnin kykyyn vaikuttaa kulttuurin lisäksi tiimin koko: mitä suurempi tiimi, sitä enemmän vaaditaan rakennetta ja etukäteissuunnittelua \citep{waterman_how_2015}.
 
-Tiimin kokemus toistensa kanssa työskentelystä vaikuttaa: dokumentaation ja suunnittelun tarve vähenee, kun tiimin jäsenet tulevat kokeeneemmaksi toistensa kanssa työskentelysyä. Uusi tiimi tarvitsee enemmän etukäteisuunnittelua, kuin ketterän ajatusmallin sisäistänyt tiimi \citep{waterman_how_2015}.
+Elorannan (\citeyear{eloranta2015techniques}) mukaan tiimit, jotka arvostivat ketteriä arvoja valitsivat itse, minkälaista lähestymistapaa arkkitehtuurisuunniitteluun he käyttivät. Tyypillisesti tällöin lähestymistapa oli kehityksen aikainen suunnittelu. Sen sijaan perinteisiä toimintamalleja suosivissa yrityksissä lähestymistapa usein saneltiin johtoportaasta. 
 
-Mitä parempi arkkitehtuurillinen osaaminen tiimillä on, sitä vähemmän tarvitaan käyttää aikaa etukäteissuunnitteluun. Arkkitehtuurillisesti kokeneella tiimillä on ymmärrys siitä, mikä toimii ja mikä ei \citep{waterman_how_2015}. 
+Tiimin arkkitehtuurillinen osaaminen vaikuttaa etukäteissuunnittelun määrään. Mitä parempi osaaminen on, sitä vähemmän suunnitteluun tarvitaan käyttää aikaa. Arkkitehtuurillisesti kokeneella tiimillä on ymmärrys siitä, mikä toimii ja mikä ei \citep{waterman_how_2015}.
 
-Kokenut tiimi voisi valita strategiakseen suorittaa arkkitehtuurisuunnittelun kokonaan kehityksen aikana. Elorannan (\citeyear{eloranta2015techniques}) mukaan kokeeneet tiimit käyttivätkin tätä lähestymistapaa menestyksekkäästi. Tiimeillä, joilla ei ollut kokemusta sovellusalueesta, strategia ei toiminut.
+Kokenut tiimi voi valita strategiakseen suorittaa arkkitehtuurisuunnittelun kokonaan kehityksen aikana. Elorannan (\citeyear{eloranta2015techniques}) mukaan kokeneet tiimit käyttivät tätä lähestymistapaa menestyksekkäästi.
+
+Osaamisen lisäksi tiimin kyky kommunikoida vaikuttaa siihen, kuinka paljon tarvitaan dokumentaatiota ja etukäteispanostusta ohjelmistokehityksen ohjaamiseksi. Kommunikoinnin kykyyn vaikuttaa kulttuurin lisäksi tiimin koko: mitä suurempi tiimi, sitä enemmän vaaditaan rakennetta ja etukäteissuunnittelua \citep{waterman_how_2015}.
+
 \section{Projektin koko}
 
 Elorannan (2015) mukaan BDUF suunnittelu on tyypillistä varsinkin koodimäärän mukaan mitattuna suurissa projekteissa. 
 
 \section{Asiakkaan vaikutus}
-\citep{waterman_how_2015} mukaan asiakkaan ketteryydellä on suuri vaikutus siihen, kuinka paljon etukäteissuunnittelua pitää tehdä eli kuinka ketterää arkkitehtuurisuunnittelu on. Prosessi-orientoitunut asiakas, joka ei usko ketterään ajatusmalliin vähentää huomattavasti tiimin mahdollisuuksia olla ketterä. Asiakas voi haluta hyväksyä kaikki mahdolliset suunnitelmat tai haluaa pakottaa oman prosessimallinsa tiimin sisälle. 
+Watermanin (\citeyear{waterman_how_2015}) mukaan asiakkaan ketteryydellä on suuri vaikutus siihen, kuinka paljon etukäteissuunnittelua pitää tehdä eli kuinka ketterää arkkitehtuurisuunnittelu on. Prosessi-orientoitunut asiakas, joka ei usko ketterään ajatusmalliin vähentää huomattavasti tiimin mahdollisuuksia olla ketterä. Asiakas voi haluta hyväksyä kaikki mahdolliset suunnitelmat tai haluaa pakottaa oman prosessimallinsa tiimin sisälle. 
 
-Etukäteisbudjettien hyväksymisen tarve voi pakottaa tiimin suunnittelemaan arkkitehtuurin etukäteen, jotta he tietävät, paljonko heillä menee tuotteen valmistamiseen aikaa. 
+Elorannan (\citeyear{eloranta2015techniques}) tutkimuksessa tuli ilmi, että arkkitehtuurin etukäteissuunnittelua käytettiin eniten projekteissa, joissa kehitettiin sulautettuja järjestelmiä. Elorannan mukaan tämä voi johtua siitä, että laitteistovalmistajat, joiden kanssa yhteistyö tapahtuu, eivät yleensä ole kovin ketteryysmyönteisiä.
 
-Joskus asiakkaalla ei ole aikaa osallistua projektiin, jolloin suunnitelmat pitää hyväksyttää etukäteen.
+Etukäteisbudjettien hyväksymisen tarve voi pakottaa tiimin suunnittelemaan arkkitehtuurin etukäteen, jotta he tietävät, paljonko heillä menee tuotteen valmistamiseen aikaa \citep{waterman_how_2015}. \cite{abrahamsson2010agility} mainitsee mahdollisena ratkaisuna inkrementaalisen rahoitusmallin. 
+
 \chapter{Yhteenveto}
 
 Elorannan (\citeyear{eloranta2015techniques}) mukaan ei ole selvää todistusainoeistoa, jonka mukaan jokin tietty asia vaikuttaisi yksinään siihen, mikä tapa toimia olisi paras.

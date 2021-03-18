@@ -1966,17 +1966,20 @@
     <bcf:citekey order="39">waterman_how_2015</bcf:citekey>
     <bcf:citekey order="40">reis2011lean</bcf:citekey>
     <bcf:citekey order="41">waterman_how_2015</bcf:citekey>
-    <bcf:citekey order="42">waterman_how_2015</bcf:citekey>
+    <bcf:citekey order="42">eloranta2015techniques</bcf:citekey>
     <bcf:citekey order="43">waterman_how_2015</bcf:citekey>
-    <bcf:citekey order="44">waterman_how_2015</bcf:citekey>
-    <bcf:citekey order="45">eloranta2015techniques</bcf:citekey>
+    <bcf:citekey order="44">eloranta2015techniques</bcf:citekey>
+    <bcf:citekey order="45">waterman_how_2015</bcf:citekey>
     <bcf:citekey order="46">waterman_how_2015</bcf:citekey>
     <bcf:citekey order="47">eloranta2015techniques</bcf:citekey>
-    <bcf:citekey order="48">waterman_agility_2018_a</bcf:citekey>
-    <bcf:citekey order="49">waterman_how_2015</bcf:citekey>
-    <bcf:citekey order="50">waterman_agility_2018_a</bcf:citekey>
+    <bcf:citekey order="48">waterman_how_2015</bcf:citekey>
+    <bcf:citekey order="49">abrahamsson2010agility</bcf:citekey>
+    <bcf:citekey order="50">eloranta2015techniques</bcf:citekey>
     <bcf:citekey order="51">waterman_agility_2018_a</bcf:citekey>
-    <bcf:citekey order="52">babar_agile_2013</bcf:citekey>
+    <bcf:citekey order="52">waterman_how_2015</bcf:citekey>
+    <bcf:citekey order="53">waterman_agility_2018_a</bcf:citekey>
+    <bcf:citekey order="54">waterman_agility_2018_a</bcf:citekey>
+    <bcf:citekey order="55">babar_agile_2013</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="nyt">
