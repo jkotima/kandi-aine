@@ -12,7 +12,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {2.2}Referenssiarkkitehtuurit}{3}{section.2.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.3}Ohjelmarungot}{3}{section.2.3}
+\contentsline {section}{\numberline {2.3}Ohjelmarungot}{4}{section.2.3}
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {3}Arkkitehtuurisuunnittelun k\IeC {\"a}yt\IeC {\"a}nteet}{5}{chapter.3}
 \defcounter {refsection}{0}\relax 
@@ -26,7 +26,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {4}Arkkitehtuurisuunnittelun m\IeC {\"a}\IeC {\"a}r\IeC {\"a}}{8}{chapter.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.1}Riskin vaikutus ja tunnistaminen}{8}{section.4.1}
+\contentsline {section}{\numberline {4.1}Riskin vaikutus}{8}{section.4.1}
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {4.2}Vaatimusten ep\IeC {\"a}vakaus}{9}{section.4.2}
 \defcounter {refsection}{0}\relax 
@@ -34,13 +34,9 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {4.4}Tiimin kulttuurin ja kokemuksen vaikutus}{9}{section.4.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.5}Projektin koko}{10}{section.4.5}
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.6}Asiakkaan vaikutus}{10}{section.4.6}
+\contentsline {section}{\numberline {4.5}Asiakkaan vaikutus}{10}{section.4.5}
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {5}Yhteenveto}{11}{chapter.5}
-\defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {6}Roskalaatikko}{12}{chapter.6}
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{L\"ahteet}{13}{section*.1}
 \defcounter {refsection}{0}\relax 
