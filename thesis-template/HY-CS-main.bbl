@@ -34,6 +34,50 @@
       \verb https://explore.digital.ai/state-ofagile/14th-annual-state-of-agile-report
       \endverb
     \endentry
+    \entry{abrahamsson2010agility}{article}{}
+      \name{author}{3}{}{%
+        {{uniquename=0,uniquepart=base,hash=f000e44112e23fdafed23380b5583b19}{%
+           family={Abrahamsson},
+           familyi={A\bibinitperiod},
+           given={Pekka},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=d4d4fe4b84580d022e3c19b9f8421af5}{%
+           family={Babar},
+           familyi={B\bibinitperiod},
+           given={Muhammad\bibnamedelima Ali},
+           giveni={M\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=1d00515fe991ba26ce9b4c5ca06934fa}{%
+           family={Kruchten},
+           familyi={K\bibinitperiod},
+           given={Philippe},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {IEEE}%
+      }
+      \strng{namehash}{3c217c4da64b178dcf918cfb6ec4625f}
+      \strng{fullhash}{91f4bcbb5fb805beab2851dde0d575ae}
+      \strng{bibnamehash}{91f4bcbb5fb805beab2851dde0d575ae}
+      \strng{authorbibnamehash}{91f4bcbb5fb805beab2851dde0d575ae}
+      \strng{authornamehash}{3c217c4da64b178dcf918cfb6ec4625f}
+      \strng{authorfullhash}{91f4bcbb5fb805beab2851dde0d575ae}
+      \field{sortinit}{A}
+      \field{sortinithash}{d77c7cdd82ff690d4c3ef13216f92f0b}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{IEEE Software}
+      \field{number}{2}
+      \field{title}{Agility and architecture: Can they coexist?}
+      \field{volume}{27}
+      \field{year}{2010}
+      \field{pages}{16\bibrangedash 22}
+      \range{pages}{7}
+    \endentry
     \entry{babar_agile_2013}{book}{}
       \name{author}{3}{}{%
         {{uniquename=0,uniquepart=base,hash=d4d4fe4b84580d022e3c19b9f8421af5}{%

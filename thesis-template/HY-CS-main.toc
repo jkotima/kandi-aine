@@ -14,35 +14,33 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {2.3}Ohjelmarungot}{3}{section.2.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {3}Arkkitehtuurisuunnittelun k\IeC {\"a}yt\IeC {\"a}nteet}{4}{chapter.3}
+\contentsline {chapter}{\numberline {3}Arkkitehtuurisuunnittelun k\IeC {\"a}yt\IeC {\"a}nteet}{5}{chapter.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.1}Koko arkkitehtuurin suunnittelu etuk\IeC {\"a}teen}{4}{section.3.1}
+\contentsline {section}{\numberline {3.1}Koko arkkitehtuurin suunnittelu etuk\IeC {\"a}teen}{5}{section.3.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.2}Sprint 0}{4}{section.3.2}
+\contentsline {section}{\numberline {3.2}Sprint 0}{5}{section.3.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.3}Kehityksen aikainen suunnittelu}{5}{section.3.3}
+\contentsline {section}{\numberline {3.3}Kehityksen aikainen suunnittelu}{6}{section.3.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.4}Arkkitehtuuriprototyypit}{5}{section.3.4}
+\contentsline {section}{\numberline {3.4}Erillinen arkkitehtuuriprosessi}{7}{section.3.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.5}Erillinen arkkitehtuuritiimi}{6}{section.3.5}
+\contentsline {chapter}{\numberline {4}Arkkitehtuurisuunnittelun m\IeC {\"a}\IeC {\"a}r\IeC {\"a}}{8}{chapter.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {4}Arkkitehtuurisuunnittelun strategia}{7}{chapter.4}
+\contentsline {section}{\numberline {4.1}Riskin vaikutus ja tunnistaminen}{8}{section.4.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.1}Riskin vaikutus ja tunnistaminen}{7}{section.4.1}
+\contentsline {section}{\numberline {4.2}Vaatimusten ep\IeC {\"a}vakaus}{9}{section.4.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.2}Vaatimusten ep\IeC {\"a}vakaus}{8}{section.4.2}
+\contentsline {section}{\numberline {4.3}Aikainen arvontuotto}{9}{section.4.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.3}Aikainen arvontuotto}{8}{section.4.3}
+\contentsline {section}{\numberline {4.4}Tiimin kulttuurin ja kokemuksen vaikutus}{9}{section.4.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.4}Tiimin kulttuurin ja kokemuksen vaikutus}{8}{section.4.4}
+\contentsline {section}{\numberline {4.5}Projektin koko}{10}{section.4.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.5}Projektin koko}{9}{section.4.5}
+\contentsline {section}{\numberline {4.6}Asiakkaan vaikutus}{10}{section.4.6}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.6}Asiakkaan vaikutus}{9}{section.4.6}
+\contentsline {chapter}{\numberline {5}Yhteenveto}{11}{chapter.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {5}Yhteenveto}{10}{chapter.5}
-\defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {6}Roskalaatikko}{11}{chapter.6}
+\contentsline {chapter}{\numberline {6}Roskalaatikko}{12}{chapter.6}
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{L\"ahteet}{13}{section*.1}
 \defcounter {refsection}{0}\relax 

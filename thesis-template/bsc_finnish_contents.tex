@@ -17,7 +17,7 @@ Luvussa 2 käsitellään apuvälineitä, joilla voidaan vähentää ja helpottaa
 
 \chapter{Arkkitehtuurin apuvälineet}
 Monissa ohjelmistoprojekteissa arkkitehtuurisuunnittelua ei tarvitse tehdä.
-Merkittävää arkkitehtuurisuunnittelua esiintyy todellisuudessa hyvin vähän: suurin osa arkkitehtuuriin liittyvistä päätöksistä on valmiiksi sisällettyinä käytettyihin ohjelmistokehyksiin \citep{bellomo2014agilely}. Elorannan (\citeyear{eloranta2015techniques}) mukaan on esimerkiksi tyypillistä, että mobiiliapplikaatioiden yhteydessä ekosysteemi pakottaa käytetyn arkkitehtuurin ja web-kehityksessä käytetään yleisesti täydellisen ohjelmistoarkkitehtuurin tarjoavia ohjelmistokehyksiä.
+Merkittävää arkkitehtuurisuunnittelua esiintyy ainoastaan vähän: suurin osa arkkitehtuuriin liittyvistä päätöksistä on valmiiksi sisällettyinä käytettyihin ohjelmistokehyksiin \citep{bellomo2014agilely}. Elorannan (\citeyear{eloranta2015techniques}) mukaan on esimerkiksi tyypillistä, että mobiiliapplikaatioiden yhteydessä ekosysteemi pakottaa käytetyn arkkitehtuurin ja web-kehityksessä käytetään yleisesti täydellisen ohjelmistoarkkitehtuurin tarjoavia ohjelmistokehyksiä.
 
 
 \section{Ohjelmistokehykset}
@@ -25,29 +25,37 @@ Ohjelmistokehys (software framework) on konkreettinen tai konseptuaalinen alusta
 
 
 \section{Referenssiarkkitehtuurit}
-Referenssiarkkitehtuuri on tietylle arkkitehtuurilliselle vaatimukselle syntynyt toimivaksi todettu ratkaisu. Referennssiarkkitehtuurit dokumentoivat järjestelmän rakenteen, järjestelmän rakennuspalaset sekä niiden vastuut ja vuorovaikutukset. \citep{vogel2011software}. 
+Referenssiarkkitehtuuri on tietylle arkkitehtuurilliselle vaatimukselle syntynyt toimivaksi todettu ratkaisu. Referenssiarkkitehtuurit dokumentoivat järjestelmän rakenteen, järjestelmän rakennuspalaset sekä niiden vastuut ja vuorovaikutukset \citep{vogel2011software}. 
 
 Jos tilanteeseen sopivaa arkkitehtuuria ei ole käytettävissä, on sellainen usein muokattavissa olemassaolevasta referenssiarkkitehtuurista.
-\section{Ohjelmarungot}
-Ohjelmarungot määrittelevät ohjelman korkean tason ja niissä oikeat toiminnot ovat korvattuina tynkätoiminnoilla, kuten tyhjillä funktioilla.
 
-Walking skeleton on eräs ohjelmarunkomalli \dots
+\section{Ohjelmarungot}
+Kehitettävän sovelluksen pohjaksi voidaan toteuttaa alustava ohjelmarunko.
+Ohjelmarungon rakenne vastaa lopullisen järjestelmän arkkitehtuuria, mutta ei vielä toteuta lopullista toiminnallisuutta \citep{vogel2011software}. Ohjelmarunko kehittyy lopulliseksi järjestelmäksi lisäämällä siihen toiminnallisuuksia inkrementaalisesti iteraatioiden aikana.
+
+Cockburn (LÄHDE) esitteleen strategian, jossa projektin alussa rakennetaan ns. kävelevä luuranko (walking skeleton). Kävelevä luuranko on pieni implemaatio järjestelmästä, joka toteuttaa end-to-end -toiminnallisuuden. Tämä ohjelmarunko muodostaa lopullisen arkkitehtuurin sitä mukaa, kun siihen lisätään uusia ominaisuuksia. Kävelevä luuranko voidaan muodostaa esimerkiksi Sprint 0 aikana \citep{eloranta2015techniques}.
+
+Ideana on, että kävelevässä luurangossa kaikki arkkitehtuurin alijärjestelmien yhteydet ovat toteutettuna. Esimerkiksi kerrosarkkitehtuurina toteutetun web-sovelluksen tapauksessa tämä ohjelmarunko voisi toteuttaa jonkin toiminnallisuuden, joka käyttää kaikkea kerrosarkkitehtuurin osia: frontendiä, backendiä ja tietokantaa.
+
+
 \chapter{Arkkitehtuurisuunnittelun käytänteet}
 
 Arkkitehtuurisuunnittelun voi luokitella ajoituksen mukaan kokonaan etukäteen tehtävään suunnitteluun, osittain etukäteen tehtävään suunnitteluun (Sprint 0) sekä kehityksen aikaiseen suunnitteluun, jossa koko arkkitehtuuri muodostuu täysin inkrementaalisesti. Arkkitehtuurisuunnittelu voi tapahtua myös erillisenä prosessina tiimin ulkopuolella.
 
-Tämän luvun käytänteet vastaa Elorannan väitöskirjassa (2015) tutkittujen yhtiöiden yleisesti käytössä olevia käytänteitä.
+Tämän luvun käytänteet vastaa Elorannan väitöskirjassa (2015) tutkittujen ohjelmistokehitystiimien yleisesti käyttämiä käytänteitä.
 
 \section{Koko arkkitehtuurin suunnittelu etukäteen}
 Vaikka etukäteissuunnittelu on määritelmällisesti ketterän ideologian vastaista, ketterässä ohjelmistokehityksessä kuitenkin usein harjoitetaan etukäteen kokonaisuudessaan tapahtuvaa arkkitehtuurisuunnittelua \citep{rost_distilling_2015, eloranta2015techniques}. Tässä mallissa arkkitehtuuri suunnitellaan kokonaan ennen siirtymistä muun toiminnallisuuden toteuttamiseen. 
 
-Toteuttamisvaiheessa arkkitehtuuriin tehdään enää korkeintaan pieniä muutoksia ja muutokset tekee arkkitehti, ei ohjelmoija \citep{eloranta2015techniques}.
+Toteuttamisvaiheessa arkkitehtuuriin tehdään enää korkeintaan pieniä muutoksia ja muutokset tekee arkkitehti, ei ohjelmoija \citep{eloranta2015techniques}. Ongelmana tässä mallissa voidaan pitää, että projektin alkaessa on vain vähän arkkitehtuurillisia päätöksiä tukevaa informaatiota käytettäväksi \citep{waterman_how_2015}.
 
 \section{Sprint 0}
 
+Arkkitehtuurilliset päätökset tulisi tehdä mahdollisimman aikaisin \citep{abrahamsson2010agility}. Mieluiten heti projektin alussa tulisi esimerkiksi päättää, onko järjestelmä hajautettu vai keskitetty, mitä teknologiastackiä käytetään ja niin edelleen \citep{eloranta2015techniques}. Ainakin jotain arkkitehtuurisuunnittelua siis tulisi tehdä heti projektin alussa.
+
 Scrum on tällä hetkellä suosituin ketterän ohjelmistokehityksen viitemalli \citep{noauthor_14th_2020}. Sprintit ovat Scrumin kehitysjaksoja ja ne numeroidaan tyypillisesti yhdestä eteenpäin.
 
-Sprint 0 on tarkoitus alustaa alkava kehitystyö eli hoitaa kaikki projektin aloituksen kannalta oleelliset toimenpiteet ennen varsinaista kehitystyön alkamista. Tässä yhteydessä Sprint 0 tarkoitetaan vaihetta, jossa arkkitehtuuri luodaan ensimmäisen iteraation aikana. Tyypillisesti tähän alustavaan arkkitehtuuriin tehdään muutoksia myöhempien sprinttien aikana. Sprint 0 on tyypillistä, että arkkitehtuurin suunnittelee ohjelmoijat itse, ei erilliset arkkitehdit \citep{eloranta2015techniques}. Sprint 0 on yleensä pituudeltaan yhden normaalin sprintin mittainen, mutta voi kestää myös useamman sprintin \citep{prause_architectural_2012}.
+Sprint 0 on tarkoitus alustaa alkava kehitystyö eli hoitaa kaikki projektin aloituksen kannalta oleelliset toimenpiteet ennen varsinaista kehitystyön alkamista. Tässä yhteydessä Sprint 0 tarkoittaa vaihetta, jossa arkkitehtuuri luodaan ensimmäisen iteraation aikana. Tyypillisesti tähän alustavaan arkkitehtuuriin tehdään muutoksia myöhempien sprinttien aikana (ks. Ohjelmistokehykset). Sprint 0:lle on tyypillistä, että arkkitehtuurin suunnittelee ohjelmoijat itse, ei erilliset arkkitehdit \citep{eloranta2015techniques}. Sprint 0 on yleensä pituudeltaan yhden normaalin sprintin mittainen, mutta voi kestää myös useamman sprintin \citep{prause_architectural_2012}.
 
 \section{Kehityksen aikainen suunnittelu}
 Kehityksen aikaisessa suunnittelussa minkäänlaista arkkitehtuurin etukäteissuunnitteluvaihetta ei ole. Arkkitehtuuria suunnitellaan vain tarpeen mukaan järjestelmän ominaisuuksien toteuttamisen yhteydessä. Arkkitehtuuri valmistuu pala palalta kunnes se on valmis.
@@ -56,41 +64,32 @@ Ideana on tuottaa alustava arkkitehtuuri ensimmäisen sprintin aikaina samalla k
 
 Arkkitehtuurisuunnittelulle voidaan varata aikaa iteraatiosta tai sille voidaan varata koko iteraatio, arkkitehtuurisuunnittelua voi tapahtua muiden suunnitteluaktiviteettien (esim. daily scrum) yhteydessä, arkkitehtuuri voidaan tehdä myös kokonaan ohjelmoinnin yhteydessä \citep{rost_distilling_2015}. 
 
-Scrumissa voidaan toteuttaa oma arkkitehtuurisuunnitteluun tarkoitettu sprintti, ns. architecture sprint (Leffingwell).
+Yksi toteuttaa arkkitehtuuri sprinttien aikana on määritellä arkkitehtuurisuunnittelu kuten käyttäjätarinat (user storyt) arkkitehtuuritarinoiksi. (Jensen, R. N., Møller, T., Sönder, P. ja Tjørnehøj, developer stories). Scrumissa voidaan myös toteuttaa oma arkkitehtuurisuunnitteluun tarkoitettu sprintti, ns. architecture sprint (Leffingwell). Kehityksen aikainen suunnittelu voi kohdistua arkkitehtuurillisesti tärkeiksi arvioituihin  aspekteihin, jokaiseen user storyyn, jokaiseen epiciin, jokaiseen sprintiin tai koko tuotteeseen \citep{rost_distilling_2015}.
 
-Yksi toteuttaa arkkitehtuuri sprinttien aikana on määritellä arkkitehtuurisuunnittelu kuten käyttäjätarinat (user storyt) arkkitehtuuritarinoiksi. (Jensen, R. N., Møller, T., Sönder, P. ja Tjørnehøj, developer stories)
+Elorannan (\citeyear{eloranta2015techniques}) mukaan tätä suunnittelukäytäntöä käytti menestyksekkäästi kokeneet tiimit. Kokeneemattomalla tiimillä arkkitehtuurin etukäteissuunnittelun puute johti jatkuvaan refaktorointiin ja lopulta siihen, että arkkitehtuuri piti tehdä uudelleen.
 
-Arkkitehtuurisuunnittelu voi kohdistua arkkitehtuurillisesti tärkeiksi arvioituihin  aspekteihin, jokaiseen user storyyn, jokaiseen epiciin, jokaiseen sprintiin tai koko tuotteeseen \citep{rost_distilling_2015}.
 
-\section{Arkkitehtuuriprototyypit}
-Arkkitehtuuriprototyyppi on toiminnallinen osa järjestelmästä, jolla on tarkoitus saada aikaista palautetta sidosryhmiltä. Prototyyppejä käytetään tyypillisesti suorituskyvyn, muokattavuuden ja rakennettavuuden analysointiin \citep{babar_agile_2013}. 
+\section{Erillinen arkkitehtuuriprosessi}
+Tässä mallissa arkkitehtuurisuunnittelu on eriytetty omaksi prosessikseen. Prosessi tapahtuu tyypilliset täysin erillisessä arkkitehtitiimissä, jossa voi kuitenkin olla samoja jäseniä, kuin itse kehitystiimissä \citep{eloranta2015techniques}.
 
-Spike solution
-\section{Erillinen arkkitehtuuritiimi}
-Tässä mallissa arkkitehtuurisuunnittelu on eriytetty omaksi prosessikseen ja se voi tapahtua täysin erillisessä arkkitehtitiimissä, jossa voi kuitenkin olla samoja jäseniä, kuin itse kehitystiimissä \citep{eloranta2015techniques}.
+Arkkitehtuuritiimi ajoittaa arkkitehtuurillisten ominaisuuksien julkaisunsa milestonejen mukaan. Tämä taas määrittää sen, milloin varsinaisen tuotteen toiminnallisia ominaisuuksia voidaan alkaa kehittämään. \citep{eloranta2015techniques}.
 
-\chapter{Arkkitehtuurisuunnittelun strategia}
-Ketterällä arkkitehtuurilla tarkoitetaan arkkitehtuuria, joka on suunniteltu ketterää prosessia käyttäen ja on muokattavissa, eli on muutosta suvaitseva \citep{waterman_how_2015}. Ketteränarkkitehtuurin tärkein ominaisuus on muutokseen sopeutuminen. Tämä aikaansaadaan käyttämällä hyväksi hyviä suunnittelukäytänteitä, kuten kapselointia ja selkeää vastuunjakoa, päätösten tekoa viivyttelemällä sekä suunnittelemalla arkkitehtuuri niin, että vaihtoehdoille jätetään tilaa \citep{waterman_agility_2018_a}. 
+Elorannan (\citeyear{eloranta2015techniques}) mukaan syy erilliselle arkkitehtuuriprosessille oli usein, että ei haluttu sotkea arkkitehtuurisuunnittelua Scrum-prosessiin.
 
-Hyvistä suunnittelu/koodauskäytänteistä (Xp jne)
+\chapter{Arkkitehtuurisuunnittelun määrä}
 
-Päätösten viivyttelystä
+Vaikka monessa projekteissa, esimerkiksi websovelluksissa, arkkitehtuurisuunnittelua ei tarvitse juurikaan tehdä, joudutaan monessa yhteydessä arkkitehtuuri suunnittelemaan hyvinkin tarkasti. Eloranta (\citeyear{eloranta2015techniques}) mainitsee esimerkkinä monimutkaiset projektit, kuten työkoneiden ohjausjärjestelmät ja lääketieteellisten laitteiden ohjeArkkitehtuuriprototyyppi on toiminnallinen osa järjestelmästä, jolla on tarkoitus saada aikaista palautetta sidosryhmiltä. Prototyyppejä käytetään tyypillisesti suorituskyvyn, muokattavuuden ja rakennettavuuden analysointiin \citep{babar_agile_2013}. 
 
-Ketterä arkkitehtuuri tulisi suunnitella niin, että tulevaisuudessa eteen tulevat muutokset ja uudet vaatimukset ovat mahdollista sisällyttää sovellukseen. Tässä auttaa, kun tiedostaa asiat, joita saatetaan joutua muuttamaan myöhemmin sekä se, että vältetään arkkitehtuurin liiallista ennenaikaista optimointia jotain tiettyä käyttötarkoitusta varten 
-\citep{waterman_agility_2018_a}.  
-
-Ohjelmistokehitysprojektissa pitää pitää tehdä valinta, minkälainen strategia järkevintä ottaa arkkitehtuurisuunnittelun lähtokohdaksi. Valintaan vaikuttaa ainakin riski, (odotettavissa oleva) vaatimusten epävakaus, tiimin kulttuuri ja osaaminen sekä myös asiakkaan suhtautuminen ketteryyteen.
+Spike solutioninka paljon arkkitehtuurisuunnittelua tulisi tehdä etukäteen, vaikuttaa ainakin riski, (odotettavissa oleva) vaatimusten epävakaus, tiimin kulttuuri ja osaaminen sekä myös asiakkaan suhtautuminen ketteryyteen.
 
 \section{Riskin vaikutus ja tunnistaminen}
 
-\cite{waterman_agility_2018_b} mukaan riskillä on suuri vaikutus siihen, kuinka paljon arkkitehtuurisuunnittelua tulisi tehdä etukäteen: mitä suurempi riski ja sen seuraukset, sitä aikaisemmin siihen pitäisi puuttua ja sitä yksityiskohtaisemmin arkkitehtuuri pitäisi suunnitella. Arkkitehtuurisuunnittelun määrän tulisi määräytyä sen perusteella, että riski saadaan minimoitua riittävän tyydyttävälle tasolle \citep{fairbanks2010just}. Kyse on siis ketteryyden ja riskin välillä tasapainottelusta.
+Arkkitehtuurisuunnittelun määrän tulisi määräytyä sen perusteella, että riski saadaan minimoitua riittävän tyydyttävälle tasolle \citep{fairbanks2010just}. 
+\cite{waterman_agility_2018_b} mukaan riskillä on suuri vaikutus siihen, kuinka paljon arkkitehtuurisuunnittelua tulisi tehdä etukäteen: mitä suurempi riski ja sen seuraukset, sitä aikaisemmin siihen pitäisi puuttua ja sitä yksityiskohtaisemmin arkkitehtuuri pitäisi suunnitella. Kyse on siis ketteryyden ja riskin välillä tasapainottelusta.
 
-Mitä enemmän tiimi haluaa vähentää riskiä, sitä aikaisemmin päätökset pitää tehdä.
-Riskin vähentäminen vaikuttaa negatiivisesti tiimin kykyyn suunnitella ketterä arkkitehtuuri \citep{waterman_agility_2018_b}. Jos arkkitehtuurisuunnitteluun käytetään liikaa aikaa, arvon tuotto asiakkaalle viivästyy. Jos suunnittelua ei tapahdu etukäteen, on todennäköisyys epäonnistumiseen suurempi.
-valmiiksi
+Mitä enemmän tiimi haluaa vähentää riskiä, sitä aikaisemmin päätökset pitää tehdä. Riskin vähentäminen vaikuttaa negatiivisesti tiimin ketteryyteen \citep{waterman_agility_2018_b}. Jos arkkitehtuurisuunnitteluun käytetään liikaa aikaa, arvon tuotto asiakkaalle viivästyy. Jos suunnittelua ei tapahdu etukäteen, on todennäköisyys epäonnistumiseen suurempi.
+
 Mikä on hyväksyttävä riski vaihtelee paljon: esimerkiksi jos verkkokauppa kaatuu, voidaan menettää asiakkaita, mutta esimerkiksi lääketieteellisessä järjestelmässä voi riskinä olla jopa ihmishengen menettäminen. Tälläisissä tilanteissa on tyypillistä panostaa enemmän etukäteiseen arkkitehtuurisuunnitteluun \citep{waterman_agility_2018_b}. 
-
-Tilanteissa, joissa järjestelmän vaatimuksista ei ole minkäänlaista varmuutta, esimerkiksi täysin uutta tuotetta tai ominaisuutta luodessa, voi olla tärkeämpää saada tuote ulos ja testattua mahdollisimman nopeasti. Jos tarkoituksena on aikainen arvontuotto, täytyy nopeuttaa ensimmäistä julkaisua vähentämällä arkkitehtuurisuunniitteluun käytettyä aikaa \citep{waterman_how_2015}. Tällöin voisi olla järkevää käyttää hyväksi malliarkkitehtuureja sekä inkrementaalista arkkitehtuuria.
 
 \section{Vaatimusten epävakaus}
 Vaatimusten epävakaus johtuu yleensä epämääräisesti määritellyistä tai vaihtelevista vaatimuksista \citep{waterman_how_2015}. Epämääräiset vaatimukset johtuvat siitä, ettei asiakas tiedä, mitä haluaa tai heiltä tulee uusia ideoita kehityksen aikana. Vaihtelevat vaatimukset johtuvat siitä, että asiakas muuttaa mieltään tai että käyttötapaukset muuttuvat.
@@ -101,6 +100,8 @@ Mitä enemmän voi olettaa vaatimusten muuttuvan, sitä ketterämpi arkkitehtuur
 
 \section{Aikainen arvontuotto}
 
+Jos tarkoituksena on aikainen arvontuotto, täytyy nopeuttaa ensimmäistä julkaisua vähentämällä arkkitehtuurisuunniitteluun käytettyä aikaa \citep{waterman_how_2015}. Tällöin voisi olla järkevää käyttää hyväksi malliarkkitehtuureja sekä inkrementaalista arkkitehtuuria.
+
 \section{Tiimin kulttuurin ja kokemuksen vaikutus}
 Tiimin kyky kommunikoida vaikuttaa siihen, kuinka paljon tarvitaan dokumentaatiota ja etukäteispanostusta ohjelmistokehityksen ohjaamiseksi. Kommunikoinnin kykyyn vaikuttaa kulttuurin lisäksi tiimin koko: mitä suurempi tiimi, sitä enemmän vaaditaan rakennetta ja etukäteissuunnittelua \citep{waterman_how_2015}.
 
@@ -108,7 +109,7 @@ Tiimin kokemus toistensa kanssa työskentelystä vaikuttaa: dokumentaation ja su
 
 Mitä parempi arkkitehtuurillinen osaaminen tiimillä on, sitä vähemmän tarvitaan käyttää aikaa etukäteissuunnitteluun. Arkkitehtuurillisesti kokeneella tiimillä on ymmärrys siitä, mikä toimii ja mikä ei \citep{waterman_how_2015}. 
 
-Kokenut tiimi voisi valita strategiakseen suorittaa arkkitehtuurisuunnittelun kokonaan kehityksen aikana. Elorannan (2015) mukaan kokeeneet tiimit käyttivätkin tätä lähestymistapaa menestyksekkäästi. Tiimeillä, joilla ei ollut kokemusta sovellusalueesta, strategia ei toiminut.
+Kokenut tiimi voisi valita strategiakseen suorittaa arkkitehtuurisuunnittelun kokonaan kehityksen aikana. Elorannan (\citeyear{eloranta2015techniques}) mukaan kokeeneet tiimit käyttivätkin tätä lähestymistapaa menestyksekkäästi. Tiimeillä, joilla ei ollut kokemusta sovellusalueesta, strategia ei toiminut.
 \section{Projektin koko}
 
 Elorannan (2015) mukaan BDUF suunnittelu on tyypillistä varsinkin koodimäärän mukaan mitattuna suurissa projekteissa. 
@@ -120,8 +121,24 @@ Etukäteisbudjettien hyväksymisen tarve voi pakottaa tiimin suunnittelemaan ark
 
 Joskus asiakkaalla ei ole aikaa osallistua projektiin, jolloin suunnitelmat pitää hyväksyttää etukäteen.
 \chapter{Yhteenveto}
+
+Elorannan (\citeyear{eloranta2015techniques}) mukaan ei ole selvää todistusainoeistoa, jonka mukaan jokin tietty asia vaikuttaisi yksinään siihen, mikä tapa toimia olisi paras.
+
 \chapter{Roskalaatikko}
 
 Kapseloinnin tarkoituksena on, että muutokset vaikuttavat vain mahdollisimman pieneen osaan järjestelmästä. 
 
 Hyvien käytänteiden käyttö ei varsinaisesti vähennä etukäteistyötä, mutta ketteryyden ylläpidettävyyden saavuttamiseksi näitä tulisi kuitenkin käyttää \citep{waterman_agility_2018_a}. 
+
+Ketterällä arkkitehtuurilla tarkoitetaan arkkitehtuuria, joka on suunniteltu ketterää prosessia käyttäen ja on muokattavissa, eli on muutosta suvaitseva \citep{waterman_how_2015}. Ketteränarkkitehtuurin tärkein ominaisuus on muutokseen sopeutuminen. Tämä aikaansaadaan käyttämällä hyväksi hyviä suunnittelukäytänteitä, kuten kapselointia ja selkeää vastuunjakoa, päätösten tekoa viivyttelemällä sekä suunnittelemalla arkkitehtuuri niin, että vaihtoehdoille jätetään tilaa \citep{waterman_agility_2018_a}. 
+
+Hyvistä suunnittelu/koodauskäytänteistä (Xp jne)
+
+Päätösten viivyttelystä
+
+Ketterä arkkitehtuuri tulisi suunnitella niin, että tulevaisuudessa eteen tulevat muutokset ja uudet vaatimukset ovat mahdollista sisällyttää sovellukseen. Tässä auttaa, kun tiedostaa asiat, joita saatetaan joutua muuttamaan myöhemmin sekä se, että vältetään arkkitehtuurin liiallista ennenaikaista optimointia jotain tiettyä käyttötarkoitusta varten 
+\citep{waterman_agility_2018_a}.  
+
+Arkkitehtuuriprototyyppi on toiminnallinen osa järjestelmästä, jolla on tarkoitus saada aikaista palautetta sidosryhmiltä. Prototyyppejä käytetään tyypillisesti suorituskyvyn, muokattavuuden ja rakennettavuuden analysointiin \citep{babar_agile_2013}. 
+
+Spike solution
