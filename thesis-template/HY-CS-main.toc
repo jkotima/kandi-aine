@@ -39,8 +39,4 @@
 \contentsline {chapter}{\numberline {5}Yhteenveto}{11}{chapter.5}
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{L\"ahteet}{13}{section*.1}
-\defcounter {refsection}{0}\relax 
-\cftpagenumbersoff {chapter}
-\defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {A}Sample Appendix}{i}{appendix.A}
 \contentsfinish 
