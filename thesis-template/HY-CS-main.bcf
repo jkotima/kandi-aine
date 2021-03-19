@@ -1932,8 +1932,8 @@
     <bcf:citekey order="6">babar_agile_2013</bcf:citekey>
     <bcf:citekey order="7">fowler2001agile</bcf:citekey>
     <bcf:citekey order="8">babar_agile_2013</bcf:citekey>
-    <bcf:citekey order="9">eloranta2015techniques</bcf:citekey>
-    <bcf:citekey order="10">vogel2011software</bcf:citekey>
+    <bcf:citekey order="9">vogel2011software</bcf:citekey>
+    <bcf:citekey order="10">eloranta2015techniques</bcf:citekey>
     <bcf:citekey order="11">babar_agile_2013</bcf:citekey>
     <bcf:citekey order="12">bellomo2014agilely</bcf:citekey>
     <bcf:citekey order="13">eloranta2015techniques</bcf:citekey>
@@ -1976,15 +1976,16 @@
     <bcf:citekey order="49">waterman_how_2015</bcf:citekey>
     <bcf:citekey order="50">reis2011lean</bcf:citekey>
     <bcf:citekey order="51">reis2011lean</bcf:citekey>
-    <bcf:citekey order="52">eloranta2015techniques</bcf:citekey>
-    <bcf:citekey order="53">waterman_how_2015</bcf:citekey>
-    <bcf:citekey order="54">eloranta2015techniques</bcf:citekey>
-    <bcf:citekey order="55">waterman_how_2015</bcf:citekey>
+    <bcf:citekey order="52">fowler2001agile</bcf:citekey>
+    <bcf:citekey order="53">eloranta2015techniques</bcf:citekey>
+    <bcf:citekey order="54">waterman_how_2015</bcf:citekey>
+    <bcf:citekey order="55">eloranta2015techniques</bcf:citekey>
     <bcf:citekey order="56">waterman_how_2015</bcf:citekey>
-    <bcf:citekey order="57">eloranta2015techniques</bcf:citekey>
-    <bcf:citekey order="58">waterman_how_2015</bcf:citekey>
-    <bcf:citekey order="59">abrahamsson2010agility</bcf:citekey>
-    <bcf:citekey order="60">eloranta2015techniques</bcf:citekey>
+    <bcf:citekey order="57">waterman_how_2015</bcf:citekey>
+    <bcf:citekey order="58">eloranta2015techniques</bcf:citekey>
+    <bcf:citekey order="59">waterman_how_2015</bcf:citekey>
+    <bcf:citekey order="60">abrahamsson2010agility</bcf:citekey>
+    <bcf:citekey order="61">eloranta2015techniques</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="nyt">
