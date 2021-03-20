@@ -1,8 +1,6 @@
 \babel@toc {finnish}{}
 \boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
 \babel@toc {finnish}{}
-\babel@toc {english}{}
-\babel@toc {finnish}{}
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {1}Johdanto}{1}{chapter.1}
 \defcounter {refsection}{0}\relax 
