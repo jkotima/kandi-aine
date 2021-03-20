@@ -164,6 +164,33 @@
       \field{pages}{12\bibrangedash 17}
       \range{pages}{6}
     \endentry
+    \entry{cockburn2004crystal}{book}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=c1e5acec4259bb4c17ca1a00866f32e1}{%
+           family={Cockburn},
+           familyi={C\bibinitperiod},
+           given={Alistair},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Pearson Education}%
+      }
+      \strng{namehash}{c1e5acec4259bb4c17ca1a00866f32e1}
+      \strng{fullhash}{c1e5acec4259bb4c17ca1a00866f32e1}
+      \strng{bibnamehash}{c1e5acec4259bb4c17ca1a00866f32e1}
+      \strng{authorbibnamehash}{c1e5acec4259bb4c17ca1a00866f32e1}
+      \strng{authornamehash}{c1e5acec4259bb4c17ca1a00866f32e1}
+      \strng{authorfullhash}{c1e5acec4259bb4c17ca1a00866f32e1}
+      \field{sortinit}{C}
+      \field{sortinithash}{963e9d84a3da2344e8833203de5aed05}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Crystal clear: A human-powered methodology for small teams: A human-powered methodology for small teams}
+      \field{year}{2004}
+    \endentry
     \entry{eloranta2015techniques}{article}{}
       \name{author}{1}{}{%
         {{uniquename=0,uniquepart=base,hash=2e8bd7e9f54c9b064990bf4884a18ead}{%
@@ -292,6 +319,54 @@
       \field{title}{Working {Group}. {IEEE} recommended practice for architectural description of software-intensive systems}
       \field{year}{2000}
     \endentry
+    \entry{jensen2006architecture}{inproceedings}{}
+      \name{author}{4}{}{%
+        {{uniquename=0,uniquepart=base,hash=f1747cdbba9e657d63e37a064751c959}{%
+           family={Jensen},
+           familyi={J\bibinitperiod},
+           given={Rolf\bibnamedelima Njor},
+           giveni={R\bibinitperiod\bibinitdelim N\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=2a83305bd80ee2ae6b651ae31b3e23aa}{%
+           family={Møller},
+           familyi={M\bibinitperiod},
+           given={Thomas},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=ee42533b3c91c3f7a8a9521ab5d9dea8}{%
+           family={S{ö}nder},
+           familyi={S\bibinitperiod},
+           given={Peter},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=0248e094336cd3626d3e587cf19b7bd4}{%
+           family={Tjørnehøj},
+           familyi={T\bibinitperiod},
+           given={Gitte},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{organization}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{26ee4da5f60730fe462de3258c3135f5}
+      \strng{fullhash}{5c1817342dcf341f16868f448defc539}
+      \strng{bibnamehash}{5c1817342dcf341f16868f448defc539}
+      \strng{authorbibnamehash}{5c1817342dcf341f16868f448defc539}
+      \strng{authornamehash}{26ee4da5f60730fe462de3258c3135f5}
+      \strng{authorfullhash}{5c1817342dcf341f16868f448defc539}
+      \field{sortinit}{J}
+      \field{sortinithash}{fce5f8d0bd05e8d93f3dbe21c78897ca}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{International Conference on Extreme Programming and Agile Processes in Software Engineering}
+      \field{title}{Architecture and design in extreme programming; introducing “developer stories”}
+      \field{year}{2006}
+      \field{pages}{133\bibrangedash 142}
+      \range{pages}{10}
+    \endentry
     \entry{kruchten2004rational}{book}{}
       \name{author}{1}{}{%
         {{uniquename=0,uniquepart=base,hash=1d00515fe991ba26ce9b4c5ca06934fa}{%
@@ -318,6 +393,41 @@
       \field{labeltitlesource}{title}
       \field{title}{The rational unified process: an introduction}
       \field{year}{2004}
+    \endentry
+    \entry{levison_what_2008}{misc}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=004fcc5a22ba84111d47e5a300561eeb}{%
+           family={Levison},
+           familyi={L\bibinitperiod},
+           given={Mark},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{004fcc5a22ba84111d47e5a300561eeb}
+      \strng{fullhash}{004fcc5a22ba84111d47e5a300561eeb}
+      \strng{bibnamehash}{004fcc5a22ba84111d47e5a300561eeb}
+      \strng{authorbibnamehash}{004fcc5a22ba84111d47e5a300561eeb}
+      \strng{authornamehash}{004fcc5a22ba84111d47e5a300561eeb}
+      \strng{authorfullhash}{004fcc5a22ba84111d47e5a300561eeb}
+      \field{sortinit}{L}
+      \field{sortinithash}{2c7981aaabc885868aba60f0c09ee20f}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{9}
+      \field{title}{What is {Sprint} {Zero}? {Why} was it {Introduced}?}
+      \field{urlday}{19}
+      \field{urlmonth}{3}
+      \field{urlyear}{2021}
+      \field{year}{2008}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.infoq.com/news/2008/09/sprint_zero/
+      \endverb
+      \verb{url}
+      \verb https://www.infoq.com/news/2008/09/sprint_zero/
+      \endverb
     \endentry
     \entry{prause_architectural_2012}{inproceedings}{}
       \name{author}{2}{}{%
@@ -450,6 +560,47 @@
       \verb Rost2015_Chapter_DistillingBestPracticesForAgil.pdf:/home/jkotimak/Downloads/Rost2015_Chapter_DistillingBestPracticesForAgil.pdf:application/pdf
       \endverb
       \keyw{Agile development,Experience report,Software architecture}
+    \endentry
+    \entry{sutherland_scrum_2020}{misc}{}
+      \name{author}{2}{}{%
+        {{uniquename=0,uniquepart=base,hash=6e3f26f6f816a26c6ab36bc7a899bcde}{%
+           family={Sutherland},
+           familyi={S\bibinitperiod},
+           given={Jeff},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=ee6f08fcba839e09471a0bc69152b6a5}{%
+           family={Schwaber},
+           familyi={S\bibinitperiod},
+           given={Ken},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{ca730575e19647a6c1a1a5e142352cd6}
+      \strng{fullhash}{ca730575e19647a6c1a1a5e142352cd6}
+      \strng{bibnamehash}{ca730575e19647a6c1a1a5e142352cd6}
+      \strng{authorbibnamehash}{ca730575e19647a6c1a1a5e142352cd6}
+      \strng{authornamehash}{ca730575e19647a6c1a1a5e142352cd6}
+      \strng{authorfullhash}{ca730575e19647a6c1a1a5e142352cd6}
+      \field{sortinit}{S}
+      \field{sortinithash}{322b1d5276f2f6c1bccdcd15920dbee6}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{11}
+      \field{title}{The {Scrum} guide – the definitive guide to {Scrum}: {The} rules of the game}
+      \field{urlday}{19}
+      \field{urlmonth}{3}
+      \field{urlyear}{2021}
+      \field{year}{2020}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://scrumguides.org/docs/scrumguide/v2020/2020-Scrum-Guide-US.pdf
+      \endverb
+      \verb{url}
+      \verb https://scrumguides.org/docs/scrumguide/v2020/2020-Scrum-Guide-US.pdf
+      \endverb
     \endentry
     \entry{waterman_agility_2018_a}{article}{}
       \name{author}{1}{}{%

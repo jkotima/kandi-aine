@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.10.16)  19 MAR 2021 12:06
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.10.16)  20 MAR 2021 18:51
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1660,16 +1660,11 @@ Package babel Info: Redefining finnish shorthand "|
 ]
 Package babel Info: Redefining finnish shorthand "|
 (babel)             in language  on input line 38.
-
-Overfull \hbox (3.03876pt too wide) in paragraph at lines 43--45
-\T1/lmr/m/n/12 ovat to-teu-tet-tu-na (LÄH-DE). Esi-mer-kik-si ker-ro-sark-ki-teh-tuu-ri-na to-teu-te-tun web-sovelluksen
- []
-
 Package babel Info: Redefining finnish shorthand "|
 (babel)             in language  on input line 46.
 Package babel Info: Redefining finnish shorthand "|
 (babel)             in language  on input line 46.
-[4]
+ [4]
 Luku 3.
 Package babel Info: Redefining finnish shorthand "|
 (babel)             in language  on input line 46.
@@ -1777,18 +1772,18 @@ Package logreq Info: Writing requests to 'HY-CS-main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 31174 strings out of 492982
- 546945 string characters out of 6134895
- 999657 words of memory out of 5000000
- 34126 multiletter control sequences out of 15000+600000
+ 31192 strings out of 492982
+ 547546 string characters out of 6134895
+ 999951 words of memory out of 5000000
+ 34140 multiletter control sequences out of 15000+600000
  81951 words of font info for 72 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  62i,7n,56p,999b,2026s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathsy.enc}</usr/share/texmf/fonts/type1/public/lm/lmbx10.pfb></usr/share/texmf/fonts/type1/public/lm/lmbx12.pfb></usr/share/texmf/fonts/type1/public/lm/lmcsc10.pfb></usr/share/texmf/fonts/type1/public/lm/lmr10.pfb></usr/share/texmf/fonts/type1/public/lm/lmr12.pfb></usr/share/texmf/fonts/type1/public/lm/lmr6.pfb></usr/share/texmf/fonts/type1/public/lm/lmri12.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy10.pfb></usr/share/texmf/fonts/type1/public/lm/lmtt10.pfb></usr/share/texmf/fonts/type1/public/lm/lmtt12.pfb>
-Output written on /home/jkotimak/kandi/kandi-aine/thesis-template/HY-CS-main.pdf (20 pages, 295137 bytes).
+Output written on /home/jkotimak/kandi/kandi-aine/thesis-template/HY-CS-main.pdf (20 pages, 298527 bytes).
 PDF statistics:
- 317 PDF objects out of 1000 (max. 8388607)
- 280 compressed objects within 3 object streams
- 51 named destinations out of 1000 (max. 500000)
+ 327 PDF objects out of 1000 (max. 8388607)
+ 290 compressed objects within 3 object streams
+ 55 named destinations out of 1000 (max. 500000)
  162 words of extra memory for PDF output out of 10000 (max. 10000000)
 

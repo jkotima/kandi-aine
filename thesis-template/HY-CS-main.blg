@@ -1,14 +1,14 @@
 [0] Config.pm:302> INFO - This is Biber 2.9
 [0] Config.pm:305> INFO - Logfile is 'HY-CS-main.blg'
-[22] biber:313> INFO - === Fri Mar 19, 2021, 12:06:02
-[41] Biber.pm:371> INFO - Reading 'HY-CS-main.bcf'
-[98] Biber.pm:857> INFO - Found 16 citekeys in bib section 0
-[110] Biber.pm:3981> INFO - Processing section 0
-[120] Biber.pm:4154> INFO - Looking for bibtex format file 'bibliography.bib' for section 0
-[123] bibtex.pm:1468> INFO - LaTeX decoding ...
-[165] bibtex.pm:1294> INFO - Found BibTeX data source 'bibliography.bib'
-[278] UCollate.pm:68> INFO - Overriding locale 'fi-FI' defaults 'variable = shifted' with 'variable = non-ignorable'
-[278] UCollate.pm:68> INFO - Overriding locale 'fi-FI' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[278] Biber.pm:3809> INFO - Sorting list 'nyt/global//global/global' of type 'entry' with template 'nyt' and locale 'fi-FI'
-[296] bbl.pm:617> INFO - Writing 'HY-CS-main.bbl' with encoding 'UTF-8'
-[306] bbl.pm:720> INFO - Output to HY-CS-main.bbl
+[21] biber:313> INFO - === Sat Mar 20, 2021, 18:16:18
+[37] Biber.pm:371> INFO - Reading 'HY-CS-main.bcf'
+[83] Biber.pm:857> INFO - Found 20 citekeys in bib section 0
+[94] Biber.pm:3981> INFO - Processing section 0
+[102] Biber.pm:4154> INFO - Looking for bibtex format file 'bibliography.bib' for section 0
+[104] bibtex.pm:1468> INFO - LaTeX decoding ...
+[138] bibtex.pm:1294> INFO - Found BibTeX data source 'bibliography.bib'
+[255] UCollate.pm:68> INFO - Overriding locale 'fi-FI' defaults 'variable = shifted' with 'variable = non-ignorable'
+[255] UCollate.pm:68> INFO - Overriding locale 'fi-FI' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[255] Biber.pm:3809> INFO - Sorting list 'nyt/global//global/global' of type 'entry' with template 'nyt' and locale 'fi-FI'
+[275] bbl.pm:617> INFO - Writing 'HY-CS-main.bbl' with encoding 'UTF-8'
+[287] bbl.pm:720> INFO - Output to HY-CS-main.bbl

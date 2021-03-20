@@ -19,7 +19,7 @@ Luvussa 2 käsitellään apuvälineitä, joilla voidaan vähentää ja helpottaa
 \chapter{Arkkitehtuurin apuvälineet}
 Merkittävää arkkitehtuurisuunnittelua esiintyy todellisuudessa ainoastaan vähän: suurin osa arkkitehtuuriin liittyvistä päätöksistä on valmiiksi sisällettyinä käytettyihin ohjelmistokehyksiin \citep{bellomo2014agilely}. Monissa ohjelmistoprojekteissa arkkitehtuurisuunnittelua ei tarvitse edes  tehdä. Elorannan (\citeyear{eloranta2015techniques}) mukaan on esimerkiksi tyypillistä, että mobiiliapplikaatioiden yhteydessä ekosysteemi pakottaa käytetyn arkkitehtuurin ja web-kehityksessä käytetään yleisesti täydellisen ohjelmistoarkkitehtuurin tarjoavia ohjelmistokehyksiä.
 
-Jos soveltuvaa ohjelmistokehystä ei ole olemassa voidaan suunnittelun pohjana usein käyttää jotain referenssiarkkitehtuuria. Ohjelmistokehysten ja referenssiarkkitehtuurien käytön etuina on se, että arkkitehtuurisuunnittelun määrä vähenee huomattavasti eli järjestelmä saadaan toimintakuntoon nopeammin \citep{waterman_how_2015}.
+Jos soveltuvaa ohjelmistokehystä ei ole olemassa, voidaan suunnittelun pohjana usein käyttää jotain referenssiarkkitehtuuria. Ohjelmistokehysten ja referenssiarkkitehtuurien käytön etuina on se, että arkkitehtuurisuunnittelun määrä vähenee huomattavasti eli järjestelmä saadaan toimintakuntoon nopeammin \citep{waterman_how_2015}.
 
 Arkkitehtuurin lähtökohdaksi voidaan toteuttaa projektin alussa alustava ohjelmarunko, joka toimii pohjana toiminnalisuuksien kehittämiseen ketterän kehityksen iteraatioissa.
 
@@ -38,9 +38,9 @@ Tässä yhteydessä referenssiarkkitehtuurilla tarkoitetaan mitä vain arkkiteht
 \section{Ohjelmarungot}
 Kehitettävän sovelluksen pohjaksi voidaan toteuttaa alustava ohjelmarunko. Ohjelmarungon rakenne vastaa lopullisen järjestelmän arkkitehtuuria, mutta ei vielä toteuta lopullista toiminnallisuutta \citep{vogel2011software}. Ohjelmarunko kehittyy lopulliseksi järjestelmäksi lisäämällä siihen toiminnallisuuksia inkrementaalisesti iteraatioiden aikana.
 
-Cockburn (LÄHDE) esitteleen strategian, jossa projektin alussa rakennetaan ns. kävelevä luuranko (walking skeleton). Kävelevä luuranko on pieni implemaatio järjestelmästä, joka toteuttaa end-to-end -toiminnallisuuden. Tämä ohjelmarunko muodostaa lopullisen arkkitehtuurin sitä mukaa, kun siihen lisätään uusia ominaisuuksia. Kävelevä luuranko voidaan muodostaa esimerkiksi Sprint 0 aikana \citep{eloranta2015techniques}.
+Cockburn (\citeyear{cockburn2004crystal}) esitteleen strategian, jossa projektin alussa rakennetaan ns. kävelevä luuranko (walking skeleton). Kävelevä luuranko on pieni implemaatio järjestelmästä, joka toteuttaa end-to-end -toiminnallisuuden. Tämä ohjelmarunko muodostaa lopullisen arkkitehtuurin sitä mukaa, kun siihen lisätään uusia ominaisuuksia. Kävelevä luuranko voidaan muodostaa esimerkiksi Sprint 0 aikana.
 
-Ideana on, että kävelevässä luurangossa kaikki arkkitehtuurin alijärjestelmien yhteydet ovat toteutettuna (LÄHDE).
+Ideana on, että kävelevässä luurangossa kaikki arkkitehtuurin alijärjestelmien yhteydet ovat toteutettuna \citep{cockburn2004crystal}.
 Esimerkiksi kerrosarkkitehtuurina toteutetun web-sovelluksen tapauksessa tämä ohjelmarunko voisi toteuttaa jonkin toiminnallisuuden, joka käyttää kaikkea kerrosarkkitehtuurin osia: frontendiä, backendiä ja tietokantaa.
 
 \chapter{Arkkitehtuurisuunnittelun käytänteet}
@@ -60,12 +60,12 @@ Arkkitehtuurilliset päätökset tulisi tehdä mahdollisimman aikaisin \citep{ab
 
 Scrum on tällä hetkellä suosituin ketterän ohjelmistokehityksen viitemalli \citep{noauthor_14th_2020}. Sprintit ovat Scrumin kehitysjaksoja ja ne numeroidaan tyypillisesti yhdestä eteenpäin.
 
-Sprint 0:ssa on tarkoitus alustaa alkava kehitystyö eli hoitaa kaikki projektin aloituksen kannalta oleelliset toimenpiteet ennen varsinaista kehitystyön alkamista (LÄHDE). Tässä yhteydessä Sprint 0:lla tarkoitetaan vaihetta, jossa arkkitehtuuri luodaan ensimmäisen iteraation aikana. Tyypillisesti tähän alustavaan arkkitehtuuriin tehdään muutoksia myöhempien sprinttien aikana (ks. Ohjelmistokehykset). 
+Sprint 0:ssa on tarkoitus alustaa alkava kehitystyö eli hoitaa kaikki projektin aloituksen kannalta oleelliset toimenpiteet ennen varsinaista kehitystyön alkamista \citep{levison_what_2008}. Tässä yhteydessä Sprint 0:lla tarkoitetaan vaihetta, jossa arkkitehtuuri luodaan ensimmäisen iteraation aikana. Tyypillisesti tähän alustavaan arkkitehtuuriin tehdään muutoksia myöhempien sprinttien aikana (ks. Ohjelmistokehykset). 
 
 Sprint 0:lle on tyypillistä, että arkkitehtuurin suunnittelee ohjelmoijat itse, ei erilliset arkkitehdit \citep{eloranta2015techniques}. Sprint 0 on yleensä pituudeltaan yhden normaalin sprintin mittainen, mutta voi kestää myös useamman sprintin \citep{prause_architectural_2012}.
 
 Sprint 0 voidaan kritisoida, koska se ei tuota välitöntä arvoa asiakkaalle.
-Scrum guiden (LÄHDE) mukaan jokaisen sprintin pitäisi tuottaa potentiaalisesti julkaisukelpoinen lisäys tuotteeseen.
+Scrum oppaan (\citeyear{sutherland_scrum_2020}) mukaan jokaisen sprintin pitäisi tuottaa potentiaalisesti julkaisukelpoinen lisäys tuotteeseen. Oppaassa ei ole mainintaa valmistelevasta sprintistä.
 
 \section{Kehityksen aikainen suunnittelu}
 Kehityksen aikaisessa suunnittelussa minkäänlaista arkkitehtuurin etukäteissuunnitteluvaihetta ei ole. Arkkitehtuuria suunnitellaan vain tarpeen mukaan järjestelmän ominaisuuksien toteuttamisen yhteydessä. Arkkitehtuuri valmistuu pala palalta kunnes se on valmis.
@@ -76,7 +76,7 @@ Kehityksen aikaisen arkkitehtuurisuunnittelun ajoitus vaihtelee.
 Sille voidaan varata aikaa iteraatiosta, sille voidaan varata koko iteraatio, arkkitehtuurisuunnittelua voi tapahtua muiden suunnitteluaktiviteettien (esim. daily scrum) yhteydessä, arkkitehtuuri voidaan toteuttaa myös kokonaan ohjelmoinnin yhteydessä \citep{rost_distilling_2015}. Suunnittelu voi kohdistua arkkitehtuurillisesti tärkeiksi arvioituihin aspekteihin, jokaiseen user storyyn, jokaiseen epiciin, jokaiseen sprintiin tai koko tuotteeseen \citep{rost_distilling_2015}.
 
 
-Yksi tapa toteuttaa arkkitehtuuri sprinttien aikana on määritellä arkkitehtuurisuunnittelu kuten käyttäjätarinat (user storyt) arkkitehtuuritarinoina. (Jensen, R. N., Møller, T., Sönder, P. ja Tjørnehøj, developer stories). Scrumissa voidaan myös toteuttaa oma arkkitehtuurisuunnitteluun tarkoitettu sprintti, ns. architecture sprint (Leffingwell). 
+Yksi tapa toteuttaa arkkitehtuuri sprinttien aikana on määritellä arkkitehtuurisuunnittelu kuten käyttäjätarinat (user storyt) arkkitehtuuritarinoina \citep{jensen2006architecture}.
 
 Kehityksen aikaisen suunnittelun etuna on nopea arvontuotto, mutta arkkitehtuurin uudelleensuunnitteluun saatetaan joutua käyttämään aikaa myöhemmin.
 Watermanin (\citeyear{waterman_how_2015}) mukaan kehityksen aikaisen suunnittelun käyttäminen lisää suunnitteluun käytettyä kokonaisaikaa: jokaisessa iteraatiossa täytyy miettiä, onko nykyinen arkkitehtuuri sopiva toteutettaville vaatimuksille: jos ei, arkkitehtuuria pitää uudelleensuunnitella. 
@@ -86,7 +86,7 @@ Elorannan (\citeyear{eloranta2015techniques}) mukaan tätä suunnittelukäytänt
 \section{Erillinen arkkitehtuuriprosessi}
 Tässä mallissa arkkitehtuurisuunnittelu on eriytetty omaksi prosessikseen. Prosessi tapahtuu tyypilliset täysin erillisessä arkkitehtitiimissä, jossa voi kuitenkin olla samoja jäseniä, kuin itse kehitystiimissä \citep{eloranta2015techniques}.
 
-Arkkitehtuuritiimi ajoittaa arkkitehtuurillisten ominaisuuksien julkaisunsa milestonejen mukaan. Nämä taas määrittelevät sen, milloin varsinaisen tuotteen toiminnallisia ominaisuuksia voidaan alkaa kehittämään. \citep{eloranta2015techniques}.
+Arkkitehtuuritiimi ajoittaa arkkitehtuurillisten ominaisuuksien julkaisunsa milestonejen mukaan. Nämä taas määrittelevät sen, milloin varsinaisen tuotteen toiminnallisia ominaisuuksia voidaan alkaa kehittämään \citep{eloranta2015techniques}.
 
 Elorannan (\citeyear{eloranta2015techniques}) mukaan syy erilliselle arkkitehtuuriprosessille oli usein, että ei haluttu sotkea arkkitehtuurisuunnittelua Scrum-prosessiin.
 
@@ -135,7 +135,7 @@ Watermanin (\citeyear{waterman_how_2015}) mukaan asiakkaan ketteryydellä on suu
 
 Elorannan (\citeyear{eloranta2015techniques}) tutkimuksessa tuli ilmi, että arkkitehtuurin etukäteissuunnittelua käytettiin eniten projekteissa, joissa kehitettiin sulautettuja järjestelmiä. Elorannan mukaan tämä voi johtua siitä, että laitteistovalmistajat, joiden kanssa yhteistyö tapahtuu, eivät yleensä ole kovin ketteryysmyönteisiä.
 
-Etukäteisbudjettien hyväksymisen tarve voi pakottaa tiimin suunnittelemaan arkkitehtuurin etukäteen, jotta he tietävät, paljonko heillä menee tuotteen valmistamiseen aikaa \citep{waterman_how_2015}. \cite{abrahamsson2010agility} mainitsee mahdollisena ratkaisuna inkrementaalisen rahoitusmallin. 
+Etukäteisbudjettien hyväksymisen tarve voi pakottaa tiimin suunnittelemaan arkkitehtuurin etukäteen, jotta he tietävät, paljonko heillä menee tuotteen valmistamiseen aikaa \citep{waterman_how_2015}. Abrahamsson et al. (\citeyear{abrahamsson2010agility}) mainitsee mahdollisena ratkaisuna inkrementaalisen rahoitusmallin. 
 
 \chapter{Yhteenveto}
 Tässä työssa käytiin läpi arkkitehtuurisuunnittelua helpottavista apuvälineistä ohjelmistokehykset, referenssiarkkitehtuurit sekä ohjelmarungot. Käsiteltiin arkkitehtuurisuunnitelussa yleisesti käytössä olevat käytänteet: koko arkkitehtuurin suunnittelu etukäteen, sprint 0, kehityksen aikainen suunnittelu sekä erillinen arkkitehtuuriprosessi. Lopuksi pohdittiin, mitkä asiat vaikuttavat arkkitehtuurisuunnittelun määrää.
